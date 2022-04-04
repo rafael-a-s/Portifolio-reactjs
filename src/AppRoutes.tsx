@@ -3,19 +3,21 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-import { Car } from './pages/Car'
-import { Catalog } from './pages/Catalog'
+import Home from './components/pages/Home'
+import { Container } from './components/pages/layout/Container'
 
 export function AppRoutes(){
   return(
+
   <Router>
+    
     <Routes>
-      <Route path="/car" element={<Car/>}></Route>
-      <Route path="/catalog" element={<Catalog/>}></Route>
-
+      <Container>
+        <Route path="/home"  element={<Home/>}></Route>
+      
+      </Container>
     </Routes>
-
-
   </Router>
+
   )
 }

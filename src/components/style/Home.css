@@ -1,0 +1,22 @@
+#home{
+  width: 70% ;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#home h1{
+  color: white;
+  font-family: 'roboto mono', sans-serif;
+  font-size: 2rem;
+  
+}
+#home section p{
+  text-align: center;
+  color: white;
+  font-family: 'roboto mono', sans-serif;
+  font-size: .8rem;
+}

@@ -1,0 +1,15 @@
+header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+} 
+header section a {
+  text-decoration: none;
+  color: white;
+  font-family: 'roboto mono', sans-serif;
+  font-weight: 700;
+}
