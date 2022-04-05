@@ -20,3 +20,7 @@
   font-family: 'roboto mono', sans-serif;
   font-size: .8rem;
 }
+#home #icons-social{
+  display: flex;
+  gap: 2rem;
+}

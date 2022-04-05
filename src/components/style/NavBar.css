@@ -13,3 +13,6 @@ header section a {
   font-family: 'roboto mono', sans-serif;
   font-weight: 700;
 }
+header section.active a {
+  color:darkred;
+}

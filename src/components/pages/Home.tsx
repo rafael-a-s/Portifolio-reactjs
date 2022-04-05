@@ -1,5 +1,7 @@
 import '../style/Home.css'
-import {AiFillGithub} from 'react-icons/af';
+
+import {BsGithub, BsInstagram} from 'react-icons/bs'
+import {FaLinkedinIn} from 'react-icons/fa'
 export default function Home(){
   return (
     <div id="home">
@@ -7,10 +9,14 @@ export default function Home(){
       <section id="text">
         <p>Eu me chamo Rafael, dev Front e Back, <br />
         Atualmente faço sistemas de informação, na Universidade Estadual do Tocantins. <br />
-        Por meio desse portifolio desejo inprescionar algum dev, e assim conseguir meu primeiro emprego. </p>
+        Por meio desse portifolio desejo impressionar algum dev, e assim conseguir meu primeiro emprego. <br />
+        Texto temporario </p>
+
       </section>
       <section id="icons-social">
-      
+        <span><BsGithub size='1.3rem' color='white'/></span>
+        <span><FaLinkedinIn size='1.3rem' color='white'/></span>
+        <span><BsInstagram size='1.3rem' color='white'/></span>
       </section>
       </div>
   )
